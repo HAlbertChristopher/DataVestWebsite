@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav .active {
+  color: #28a745;
+}
+
+.auth-buttons a {
+  margin-left: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login {
+  color: #28a745;
+}
+
+.signup {
+  background-color: #28a745;
+  color: white;
+}
+  
+  /* Hero About */
+  .hero-about {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px 0;
+  }
+  .hero-inner {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .hero-image img {
+    width: 260px;
+    border-radius: 20px;
+  }
+  .hero-text {
+    flex: 1;
+  }
+  .hero-text h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .hero-text p {
+    margin-bottom: 15px;
+  }
+  .cta-button {
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Website Info */
+  .website-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background: #f0f2f5;
+    padding: 60px 0;
+  }
+  .website-info h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .website-info p {
+    margin-bottom: 15px;
+    max-width: 900px;
+  }
+  
+/* Footer */
+footer {
+    background: #2f2f2f;
+    color: white;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content h4, h3 {
+    margin-bottom: 15px;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-content input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
