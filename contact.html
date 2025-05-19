@@ -19,27 +19,34 @@
         <a href="blog.html">Blog</a>
         <a href="#" class="active">Contact</a>
       </nav>
-      <div class="auth-buttons">
-        <a href="#" class="login">Login</a>
-        <a href="#" class="signup">Sign up</a>
-      </div>
     </div>
   </header>
 
   <!-- Konten Utama -->
-  <main class="contact-container">
+  <main>
+    <section class="feedback-section">
+      <h3>Kirim Feedback</h3>
+      <form>
+        <input type="text" placeholder="Nama Anda" required />
+        <input type="email" placeholder="Email Anda" required />
+        <textarea placeholder="Tulis feedback Anda..." required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+    
+    <section class="contact-container">
     <div class="contact-image">
       <img src="foto-profil.jpg" alt="Foto Profil">
     </div>
     <div class="contact-info">
       <h1>Kerja Sama Hubungi Saya di</h1>
       <div class="social-link">
-        <img src="linkedin.png" alt="LinkedIn">
+        <img src="linkedin.png" alt="LinkedIn" >
         <span><strong>Hizkia Albert Christopher</strong></span>
       </div>
       <div class="social-link">
         <img src="instagram.png" alt="Instagram">
-        <span>@hialch</span>
+        <span><strong>@hialch</strong></span>
       </div>
       <div class="social-link">
         <img src="youtube.png" alt="YouTube">
@@ -47,9 +54,10 @@
       </div>
       <div class="social-link">
         <img src="x.png" alt="X">
-        <span>@hialch</span>
+        <span><strong>@hialch</strong></span>
       </div>
     </div>
+    </section>
   </main>
 
   <footer>
@@ -61,15 +69,15 @@
         <div>
             <h4>Page</h4>
             <ul>
-                <li><a href="about/about.html">About us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </div>
         <div>
             <h4>Support</h4>
             <ul>
-                <li><a href="#">Help center</a></li>
+                <li><a href="contact.html">Help center</a></li>
                 <li><a href="#">Terms of service</a></li>
                 <li><a href="#">Privacy policy</a></li>
             </ul>
