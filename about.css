@@ -36,22 +36,6 @@ body {
   color: #28a745;
 }
 
-.auth-buttons a {
-  margin-left: 15px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.login {
-  color: #28a745;
-}
-
-.signup {
-  background-color: #28a745;
-  color: white;
-}
-  
   /* Hero About */
   .hero-about {
     display: flex;
@@ -80,7 +64,7 @@ body {
     margin-bottom: 10px;
   }
   .hero-text p {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .cta-button {
     background: green;
@@ -93,11 +77,10 @@ body {
   .website-info {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 40px;
+    gap: 10px;
+    padding: 10px;
     max-width: 1200px;
     margin: auto;
-    background: #f0f2f5;
     padding: 60px 0;
   }
   .website-info h2 {
@@ -106,7 +89,7 @@ body {
   }
   .website-info p {
     margin-bottom: 15px;
-    max-width: 900px;
+    max-width: 1800px;
   }
   
 /* Footer */
